@@ -299,6 +299,34 @@
             <h2>2</h2>
         </div>
     </section>
+    <section class="section" id="add-job-form" style="margin-bottom: 25px;">
+    <h2 style="margin-bottom: 20px;">Add New Job Application</h2>
+
+```
+<form id="jobForm">
+    <label for="company">Company Name</label><br>
+    <input type="text" id="company" placeholder="Enter company name" required><br><br>
+
+    <label for="position">Job Position</label><br>
+    <input type="text" id="position" placeholder="Enter job position" required><br><br>
+
+    <label for="jobDate">Application Date</label><br>
+    <input type="date" id="jobDate" required><br><br>
+
+    <label for="status">Application Status</label><br>
+    <select id="status">
+        <option value="Applied">Applied</option>
+        <option value="Interview">Interview</option>
+        <option value="Selected">Selected</option>
+        <option value="Rejected">Rejected</option>
+    </select><br><br>
+
+    <button type="submit" class="add-btn">Save Application</button>
+</form>
+```
+
+</section>
+
 
     <section class="section" id="applications">
         <div class="section-header">
